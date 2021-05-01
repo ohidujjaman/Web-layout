@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="witdh=device-witdh,initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Personal Portfolo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo">Portfolio</a>
+		<div class="toggle"></div>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#">Work</a></li>
+			<li><a href="#">Testimonial</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="home">
+		<div class="textBx">
+			<h2>Hello,I'm<br><span> Mithu Wahid</span></h2>
+			<h3>I'm Front End Web Devloper.</h3>
+			<a href="#" class="btn">About Me</a>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="heading">
+			<h2>About Me</h2>
+		</div>
+		<div class="content">
+			<div class="contentBx w50">
+				<h3>I'm Front End Web Devloper,</h3>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <br><br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+			</div>
+		</div class="w50">
+		<img src="img-1.jpg" class="img">
+	</div>
+</div>
+	</section>
+<section class="services" id="services">
+	<div class="heading white">
+		<h2>Our Services</h2>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+	</div>
+		<div class="content">
+			<div class="servicesbx">
+				<img src="w.png">
+				<h2>Web Design</h2>
+				<p> or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+		</div>
+		<div class="servicesbx">
+				<img src="x.png">
+				<h2>Web Devlopment</h2>
+				<p> or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+		</div>
+		<div class="servicesbx">
+				<img src="y.png">
+				<h2>Digital Marketing</h2>
+				<p> or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+		</div>
+</section> 
+<script type="text/javascript">
+		window.addEventListener('scroll',function(){
+			var header = document.queryselector('header;')
+			header.classList.toggle('sticky',window.scrollY>0)
+		});
+	</script>
+	<footer class="footer">
+		<div class="container">
+		 <div class="row">
+			<div class="footer-col">
+				<h4>Follow Us</h4>
+				<div class="social-links">
+				<ul>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+			</div>
+		   </div>
+		</div>
+	</footer>
+	<div class="copyright">
+	<p>Copyright 2021 Mithu wahid's Web Page.All Right Reserved</p>
+</div>
+</body>
+</html>
